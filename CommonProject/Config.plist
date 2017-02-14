@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Base URL</key>
+	<string>http://192.168.3.6:88/Mobile/Index/</string>
+	<key>Base Type</key>
+	<string>/?m3u8=1</string>
+	<key>Base Domain</key>
+	<string>http://192.168.3.6:88</string>
+	<key>Title</key>
+	<string>小管家</string>
+	<key>Theme Color</key>
+	<string>5baef5</string>
+	<key>Match Color</key>
+	<string>6388ae</string>
+	<key>T5Player API Key</key>
+	<string>9wQzVpEoQHMAO9sQ3IGgG8dv</string>
+	<key>T5Player Secret Key</key>
+	<string>HxgGCU3MVtI1oB7OjN3GyF68oYCobCEe</string>
+	<key>BPush API Key</key>
+	<string>9wQzVpEoQHMAO9sQ3IGgG8dv</string>
+	<key>BPush Secret Key</key>
+	<string>HxgGCU3MVtI1oB7OjN3GyF68oYCobCEe</string>
+	<key>Mtj APIKey</key>
+	<string>91afc6ca25</string>
+	<key>AMap APIKey</key>
+	<string>54beef062dd0b15a03e5daa572bba2c8</string>
+</dict>
+</plist>
