@@ -28,6 +28,9 @@
 		422458A51DC87DFF00C31697 /* BPTouchIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422458A41DC87DFF00C31697 /* BPTouchIdViewController.m */; };
 		422458AB1DC894A800C31697 /* GoodAddTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 422458AA1DC894A800C31697 /* GoodAddTextFieldCell.m */; };
 		422458AE1DC89E7100C31697 /* GoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422458AD1DC89E7100C31697 /* GoodViewController.m */; };
+		42258A8F1E52BAFE00D91E87 /* SecMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42258A8E1E52BAFE00D91E87 /* SecMapsViewController.m */; };
+		42258A911E52BB0F00D91E87 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 42258A901E52BB0F00D91E87 /* Podfile */; };
+		42258A941E52BD3800D91E87 /* MQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42258A931E52BD3800D91E87 /* MQTTManager.m */; };
 		4257E1DA1DC050D100F0F5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257E1D91DC050D100F0F5ED /* main.m */; };
 		4257E1DD1DC050D100F0F5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257E1DC1DC050D100F0F5ED /* AppDelegate.m */; };
 		4257E2081DC0510100F0F5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4257E1FF1DC0510100F0F5ED /* Assets.xcassets */; };
@@ -129,6 +132,7 @@
 		4257E5D51DC0954400F0F5ED /* XYAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257E5CB1DC0954400F0F5ED /* XYAlertViewManager.m */; };
 		4257E5D61DC0954400F0F5ED /* XYLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257E5CD1DC0954400F0F5ED /* XYLoadingView.m */; };
 		4257E5D81DC09E7900F0F5ED /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4257E5D71DC09E7900F0F5ED /* Config.plist */; };
+		5A803D18CEBB38405F859AA0 /* libPods-CommonProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5F8362CB2DF020BE70C50C /* libPods-CommonProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +178,11 @@
 		422458AA1DC894A800C31697 /* GoodAddTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodAddTextFieldCell.m; sourceTree = "<group>"; };
 		422458AC1DC89E7100C31697 /* GoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodViewController.h; sourceTree = "<group>"; };
 		422458AD1DC89E7100C31697 /* GoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodViewController.m; sourceTree = "<group>"; };
+		42258A8D1E52BAFE00D91E87 /* SecMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecMapsViewController.h; sourceTree = "<group>"; };
+		42258A8E1E52BAFE00D91E87 /* SecMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecMapsViewController.m; sourceTree = "<group>"; };
+		42258A901E52BB0F00D91E87 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42258A921E52BD3800D91E87 /* MQTTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTManager.h; sourceTree = "<group>"; };
+		42258A931E52BD3800D91E87 /* MQTTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTManager.m; sourceTree = "<group>"; };
 		4257E1D51DC050D100F0F5ED /* CommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257E1D91DC050D100F0F5ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4257E1DB1DC050D100F0F5ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -378,6 +387,9 @@
 		4257E5CC1DC0954400F0F5ED /* XYLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoadingView.h; sourceTree = "<group>"; };
 		4257E5CD1DC0954400F0F5ED /* XYLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoadingView.m; sourceTree = "<group>"; };
 		4257E5D71DC09E7900F0F5ED /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		5B5F8362CB2DF020BE70C50C /* libPods-CommonProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4037845BF7D2A2163ADBCF /* Pods-CommonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F116149BED7259A0248D466D /* Pods-CommonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,6 +400,7 @@
 				42118E581DCB2BFB0000EDD3 /* libsqlite3.0.tbd in Frameworks */,
 				422130091DC21CED00A82BEA /* LocalAuthentication.framework in Frameworks */,
 				4257E3461DC07D5600F0F5ED /* libxml2.tbd in Frameworks */,
+				5A803D18CEBB38405F859AA0 /* libPods-CommonProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,12 +463,49 @@
 			path = ConfirmAlertView;
 			sourceTree = "<group>";
 		};
+		42258A891E52BAF000D91E87 /* SecMaps */ = {
+			isa = PBXGroup;
+			children = (
+				42258A8A1E52BAF000D91E87 /* Controller */,
+				42258A8B1E52BAF000D91E87 /* Model */,
+				42258A8C1E52BAF000D91E87 /* View */,
+			);
+			path = SecMaps;
+			sourceTree = "<group>";
+		};
+		42258A8A1E52BAF000D91E87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42258A8D1E52BAFE00D91E87 /* SecMapsViewController.h */,
+				42258A8E1E52BAFE00D91E87 /* SecMapsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		42258A8B1E52BAF000D91E87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42258A921E52BD3800D91E87 /* MQTTManager.h */,
+				42258A931E52BD3800D91E87 /* MQTTManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42258A8C1E52BAF000D91E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4257E1CC1DC050D100F0F5ED = {
 			isa = PBXGroup;
 			children = (
+				42258A901E52BB0F00D91E87 /* Podfile */,
 				4257E1D71DC050D100F0F5ED /* CommonProject */,
 				4257E1D61DC050D100F0F5ED /* Products */,
 				4257E3401DC07CAA00F0F5ED /* Frameworks */,
+				D98B6BC3BAF20DCA329C9A2A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -495,6 +545,7 @@
 		4257E1EF1DC0510100F0F5ED /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				42258A891E52BAF000D91E87 /* SecMaps */,
 				42212FF11DC1927000A82BEA /* Manager */,
 				4257E1F01DC0510100F0F5ED /* Base */,
 				4257E22C1DC07B7F00F0F5ED /* Home */,
@@ -682,6 +733,7 @@
 				422130081DC21CED00A82BEA /* LocalAuthentication.framework */,
 				42212FEE1DC190D300A82BEA /* libsqlite3.tbd */,
 				4257E3451DC07D5600F0F5ED /* libxml2.tbd */,
+				5B5F8362CB2DF020BE70C50C /* libPods-CommonProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1078,6 +1130,15 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		D98B6BC3BAF20DCA329C9A2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A4037845BF7D2A2163ADBCF /* Pods-CommonProject.debug.xcconfig */,
+				F116149BED7259A0248D466D /* Pods-CommonProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1085,9 +1146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4257E1EC1DC050D100F0F5ED /* Build configuration list for PBXNativeTarget "CommonProject" */;
 			buildPhases = (
+				BF611D6F89042C2313B83C1F /* [CP] Check Pods Manifest.lock */,
 				4257E1D11DC050D100F0F5ED /* Sources */,
 				4257E1D21DC050D100F0F5ED /* Frameworks */,
 				4257E1D31DC050D100F0F5ED /* Resources */,
+				B66708E72E155D0BEE397942 /* [CP] Embed Pods Frameworks */,
+				844EB38763EF354079FA2074 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1137,6 +1201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42258A911E52BB0F00D91E87 /* Podfile in Resources */,
 				4257E2081DC0510100F0F5ED /* Assets.xcassets in Resources */,
 				4257E5D81DC09E7900F0F5ED /* Config.plist in Resources */,
 				4257E5CF1DC0954400F0F5ED /* alertView_button_gray@2x.png in Resources */,
@@ -1150,6 +1215,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		844EB38763EF354079FA2074 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66708E72E155D0BEE397942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF611D6F89042C2313B83C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4257E1D11DC050D100F0F5ED /* Sources */ = {
@@ -1208,6 +1321,7 @@
 				4257E5801DC0918100F0F5ED /* UIImage+MultiFormat.m in Sources */,
 				4257E51E1DC08AEC00F0F5ED /* TQLocationConverter.m in Sources */,
 				4257E4EB1DC08AC800F0F5ED /* AFHTTPSessionManager.m in Sources */,
+				42258A8F1E52BAFE00D91E87 /* SecMapsViewController.m in Sources */,
 				4257E5301DC08B6400F0F5ED /* OpenUDID.m in Sources */,
 				4257E4921DC08A0D00F0F5ED /* MBProgressHUD.m in Sources */,
 				4257E4B51DC08A3D00F0F5ED /* UIView+ExclusiveTouch.m in Sources */,
@@ -1244,6 +1358,7 @@
 				4257E4F31DC08AC800F0F5ED /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				4257E21A1DC0537600F0F5ED /* BPNavigationController.m in Sources */,
 				4257E5271DC08B0600F0F5ED /* GTMBase64.m in Sources */,
+				42258A941E52BD3800D91E87 /* MQTTManager.m in Sources */,
 				4257E48A1DC0892900F0F5ED /* MSBase.m in Sources */,
 				4257E5171DC08AEC00F0F5ED /* EmojHelper.m in Sources */,
 				422458AE1DC89E7100C31697 /* GoodViewController.m in Sources */,
@@ -1373,6 +1488,7 @@
 		};
 		4257E1ED1DC050D100F0F5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4037845BF7D2A2163ADBCF /* Pods-CommonProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLT6884JZ8;
@@ -1387,6 +1503,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwl.CommonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1395,6 +1512,7 @@
 		};
 		4257E1EE1DC050D100F0F5ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F116149BED7259A0248D466D /* Pods-CommonProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLT6884JZ8;
@@ -1406,9 +1524,11 @@
 				);
 				INFOPLIST_FILE = CommonProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lxml2",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwl.CommonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
